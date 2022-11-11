@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from redis_om import get_redis_connection
 
 app = FastAPI()
 
